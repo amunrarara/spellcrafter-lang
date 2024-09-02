@@ -1,0 +1,13 @@
+#!/usr/bin/env elixir
+
+# Get the absolute path of the script's directory
+script_dir = Path.expand(Path.dirname(__ENV__.file))
+
+# Add the 'src' directory to the Elixir code path
+Code.prepend_path(Path.join(script_dir, "src"))
+
+# Compile and load the Spellcrafter module
+Code.require_file(Path.join(script_dir, "src/spellcrafter.ex"))
+
+# Run the main function of the Spellcrafter module
+Spellcrafter.main(System.argv())

@@ -1,0 +1,11 @@
+spellbook Greetings
+  scroll say_hello
+    enchant message "Hello, magical world!"
+    cast IO.puts message
+  end
+end
+
+ritual main
+  summon Greetings
+  cast Greetings.say_hello
+end
