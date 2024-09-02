@@ -2,6 +2,10 @@
 
 Spellcrafter is an esoteric programming language that compiles to Elixir and runs on the Erlang BEAM. It's designed to bring a touch of magic to your code!
 
+#### This codebase was 100% created by Claude AI.
+
+I've released it as a wonder, and an interest, for the magnificent wonder that is LLM-generated code.
+
 ## Language Concepts
 
 - **Spellbook**: Module
@@ -84,3 +88,7 @@ Save this code in a file named `hello_world.scroll`, then run it using:
 ## Development Status
 
 This language is currently under development. Feel free to contribute and expand its magical capabilities!
+
+
+## License
+### Mozilla Public License 2.0
