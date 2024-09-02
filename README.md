@@ -1,4 +1,7 @@
-# Spellcrafter Programming Language
+![Spellcrafter-Logo](https://github.com/user-attachments/assets/27ac1ecd-712d-42c0-beb4-171b18622b92)
+
+# Spellcrafter 
+## Programming is Magic
 
 Spellcrafter is an esoteric programming language that compiles to Elixir and runs on the Erlang BEAM. It's designed to bring a touch of magic to your code!
 
